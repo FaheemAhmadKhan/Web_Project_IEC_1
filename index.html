@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWOO Tech Mart - Online Marketplace</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-bg">
+        <!-- Top Bar -->
+        <div class="container-fluid bg-dark text-white py-1">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <small>Hotline 24/7: (025) 3686 25 16</small>
+                </div>
+                <div class="col-md-4 text-center">
+                    <small>Sell on Swoo | Order Tracking</small>
+                </div>
+                <div class="col-md-4 text-end">
+                    <small>USD | Eng</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <div class="d-flex align-items-center">
+                        <div class="logo-circle me-2"></div>
+                        <div>
+                            <strong class="text-dark">SWOO</strong><br>
+                            <small class="text-muted">TECH MART</small>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Menu -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                HOMES
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                PAGES
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                PRODUCTS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+
+                    <!-- Right Side Actions -->
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-heart me-3 text-muted icon-size"></i>
+                        <div class="me-3">
+                            <small class="text-muted d-block">WELCOME</small>
+                            <small><strong>LOG IN / REGISTER</strong></small>
+                        </div>
+                        <div class="position-relative">
+                            <i class="bi bi-bag text-success icon-size"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                2
+                            </span>
+                            <div class="ms-2">
+                                <strong class="text-success">$1,689.00</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Search Bar -->
+        <div class="container mb-3">
+            <div class="row align-items-center search-bar-bg py-3">
+                <div class="col-md-3">
+                    <select class="form-select border-0 bg-transparent">
+                        <option>All Categories</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control border-0 bg-transparent" placeholder="Search anything...">
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="row text-white small">
+                        <div class="col-4">
+                            <div>FREE SHIPPING OVER $199</div>
+                        </div>
+                        <div class="col-4">
+                            <div>30 DAYS MONEY BACK</div>
+                        </div>
+                        <div class="col-4">
+                            <div>100% SECURE PAYMENT</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar & Main Content -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-2 sidebar-bg">
+                <div class="p-3">
+                    <!-- Sale Banner -->
+                    <div class="sale-banner mb-4">
+                        <h6 class="text-warning">SALE 40% OFF</h6>
+                    </div>
+
+                    <!-- Categories -->
+                    <ul class="list-unstyled category-list">
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Laptops</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">PC & Computers</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Cell Phones</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Tablets</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Gaming & VR</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Networking</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Cameras</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Sounds</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Office</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Storage, USB</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Accessories</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-danger">Clearance</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-10">
+                <!-- Hero Carousel -->
+                <div id="heroCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner rounded">
+                        <!-- Slide 1 - Headphones -->
+                        <div class="carousel-item active hero-slide-1">
+                            <div class="row align-items-center h-100">
+                                <div class="col-md-6 p-5">
+                                    <h2 class="text-white mb-3">Noise Cancelling Headphone</h2>
+                                    <p class="text-white-50 mb-4">Wireless Bluetooth Over-Ear WH-1000XM4, Alexa Voice Assistant, Low Latency Audio Mode</p>
+                                    <button class="btn btn-light px-4">BUY NOW</button>
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <div class="position-relative">
+                                        <div class="pagination-info">3 / 3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Additional slides would go here -->
+                    </div>
+                </div>
+
+                <!-- Product Showcases -->
+                <div class="row mb-4">
+                    <!-- Sono Playgo 5 -->
+                    <div class="col-md-4 mb-3">
+                        <div class="card product-card">
+                            <div class="card-body text-center">
+                                <h6>Sono Playgo 5</h6>
+                                <p class="text-muted">from $559</p>
+                                <button class="btn btn-outline-dark btn-sm">DISCOVER NOW</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logitek Bluetooth -->
+                    <div class="col-md-4 mb-3">
+                        <div class="card product-card">
+                            <div class="card-body text-center">
+                                <h6>Logitek Bluetooth</h6>
+                                <p class="text-muted">Best for all device</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- OKODO Hero 11+ -->
+                    <div class="col-md-4 mb-3">
+                        <div class="card product-card bg-dark text-white">
+                            <div class="card-body">
+                                <h6>OKODO HERO 11+ BLACK</h6>
+                                <p class="text-success">From $169</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Featured Brands -->
+                <section class="mb-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5>FEATURED BRANDS</h5>
+                        <a href="#" class="text-decoration-none">View All</a>
+                    </div>
+                    <div class="row text-center brand-logos">
+                        <div class="col-md-2 col-4 mb-3">
+                            <div class="brand-item p-3">JAMYX</div>
+                        </div>
+                        <div class="col-md-2 col-4 mb-3">
+                            <div class="brand-item p-3">Digitek</div>
+                        </div>
+                        <div class="col-md-2 col-4 mb-3">
+                            <div class="brand-item p-3">QUBE</div>
+                        </div>
+                        <div class="col-md-2 col-4 mb-3">
+                            <div class="brand-item p-3">Grafbase</div>
+                        </div>
+                        <div class="col-md-2 col-4 mb-3">
+                            <div class="brand-item p-3">msi</div>
+                        </div>
+                        <div class="col-md-2 col-4 mb-3">
+                            <div class="brand-item p-3">stropi</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Top Categories -->
+                <section class="mb-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5>TOP CATEGORIES</h5>
+                        <a href="#" class="text-decoration-none">View All</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-6 mb-3">
+                            <div class="category-item text-center p-4 bg-light rounded">
+                                <i class="bi bi-laptop icon-large mb-2"></i>
+                                <h6>Laptops</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mb-3">
+                            <div class="category-item text-center p-4 bg-light rounded">
+                                <i class="bi bi-pc-display icon-large mb-2"></i>
+                                <h6>PC Gaming</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mb-3">
+                            <div class="category-item text-center p-4 bg-light rounded">
+                                <i class="bi bi-headphones icon-large mb-2"></i>
+                                <h6>Headphones</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mb-3">
+                            <div class="category-item text-center p-4 bg-light rounded">
+                                <i class="bi bi-display icon-large mb-2"></i>
+                                <h6>Monitors</h6>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Deals of the Day -->
+                <section class="mb-5">
+                    <div class="deals-header p-3 mb-3">
+                        <h5 class="text-white mb-0">DEALS OF THE DAY</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card product-deal">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <div class="product-image-placeholder"></div>
+                                        <span class="badge bg-success save-badge">Save $199.00</span>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6>Xioma Redmi Note 11 Pro 256GB 2023, Black Smartphone</h6>
+                                            <div class="price-section">
+                                                <span class="current-price text-danger">$569.00</span>
+                                                <span class="original-price text-muted">$769.00</span>
+                                            </div>
+                                            <ul class="feature-list small text-muted">
+                                                <li>Exel LGA 1700 Socket; Supports 12th & 12th Gen Intel Core</li>
+                                                <li>DDR5 Compatible: 4*SMD DIMMs with DDR5 4800 Memory</li>
+                                                <li>Overclocking Power Design: Twin 16+1+2 Phases Digital VRM</li>
+                                            </ul>
+                                            <div class="shipping-info">
+                                                <span class="badge bg-success me-2">FREE SHIPPING</span>
+                                                <span class="badge bg-warning">FREE GIFT</span>
+                                            </div>
+                                            <div class="countdown mt-2">
+                                                <span class="text-muted">HURRY UP! PROMOTION WILL EXPIRES IN</span>
+                                                <div class="countdown-timer">
+                                                    <span class="time-unit">162 d</span>
+                                                    <span class="time-unit">9 h</span>
+                                                    <span class="time-unit">32 m</span>
+                                                    <span class="time-unit">3 s</span>
+                                                </div>
+                                            </div>
+                                            <div class="progress mt-2">
+                                                <div class="progress-bar bg-success" style="width: 70%"></div>
+                                            </div>
+                                            <small class="text-muted">Sold: 26/75</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="sale-banner-large">
+                                <div class="sale-content text-center text-white p-5">
+                                    <h2>SALE!</h2>
+                                    <h3>50%</h3>
+                                    <p>FEATURED</p>
+                                    <p>DISCOUNT PRICE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Best Seller Section -->
+                <section class="mb-5">
+                    <div class="section-tabs mb-3">
+                        <ul class="nav nav-tabs border-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">BEST SELLER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">NEW IN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">POPULAR</a>
+                            </li>
+                        </ul>
+                        <a href="#" class="text-decoration-none">View All</a>
+                    </div>
+                    <div class="row">
+                        <!-- Product 1 -->
+                        <div class="col-md-2 col-6 mb-3">
+                            <div class="card product-card">
+                                <div class="card-body text-center">
+                                    <div class="product-image-small mb-2"></div>
+                                    <small class="text-muted">(523)</small>
+                                    <h6 class="small">BOSE 2 Wireless On-Ear Headphones</h6>
+                                    <div class="price">$359.00</div>
+                                    <small class="text-success">FREE SHIPPING</small>
+                                    <div class="stock-status text-success small">
+                                        <i class="bi bi-check-circle"></i> In stock
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Repeat similar structure for other products -->
+                        <div class="col-md-2 col-6 mb-3">
+                            <div class="card product-card">
+                                <div class="card-body text-center">
+                                    <span class="badge bg-success save-badge">Save $99.00</span>
+                                    <div class="product-image-small mb-2"></div>
+                                    <small class="text-muted">(365)</small>
+                                    <h6 class="small">OPod Pro 12.9 Inch M1 2023, 64GB + WiFi, GPS</h6>
+                                    <div class="price text-danger">$559.00</div>
+                                    <small class="text-muted"><del>$659.00</del></small>
+                                    <small class="text-success">FREE SHIPPING</small>
+                                    <div class="stock-status text-success small">
+                                        <i class="bi bi-check-circle"></i> In stock
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more products as needed -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6>SWOO - 1ST NYC TECH ONLINE MARKET</h6>
+                    <p class="small">HOTLINE 24/7<br>(025) 3686 25 16</p>
+                    <p class="small">227 Nguyen Huynh Duc Street, Ward 3, Ho Chi Minh City<br>order@swooshopmarket.com</p>
+                </div>
+                <div class="col-md-2">
+                    <h6>TOP CATEGORIES</h6>
+                    <ul class="list-unstyled small">
+                        <li>Laptops</li>
+                        <li>PC Gaming</li>
+                        <li>Cell Phones</li>
+                        <li>Tablets</li>
+                        <li>Gaming & VR</li>
+                        <li>Networks</li>
+                        <li>Sounds</li>
+                        <li>Cameras</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>COMPANY</h6>
+                    <ul class="list-unstyled small">
+                        <li>About Store</li>
+                        <li>New Collection</li>
+                        <li>Contact</li>
+                        <li>Sitemap</li>
+                        <li>Stores</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>HELP CENTER</h6>
+                    <ul class="list-unstyled small">
+                        <li>Customer Service</li>
+                        <li>Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Track Order</li>
+                        <li>FAQs</li>
+                        <li>My Account</li>
+                        <li>Product Support</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>PARTNER</h6>
+                    <ul class="list-unstyled small">
+                        <li>Become Seller</li>
+                        <li>Supplier</li>
+                        <li>Affiliate Program</li>
+                        <li>Advertise</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="small mb-0">© 2023 Swoomarket. All Rights Reserved</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="payment-methods">
+                        <i class="bi bi-paypal"></i>
+                        <i class="bi bi-credit-card"></i>
+                        <span class="small">Mobile Site</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
