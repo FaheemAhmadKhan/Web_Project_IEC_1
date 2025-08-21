@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Swoo Tech Mart - #1 Online Marketplace for Technology</title>
+
+    <!-- Bootstrap 5.3.7 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Top Bar -->
+        <div class="bg-light py-2">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                    <div class="d-flex align-items-center">
+                        <span class="bg-behindtext px-2 py-1 rounded">Hotline 24/7</span>
+                        <strong class="ms-2">(025) 3886 25 16</strong>
+                    </div>
+                    <div class="d-flex gap-3 align-items-center small">
+                        <a href="#" class="text-decoration-none text-dark">Sell on Swoo</a>
+                        <a href="#" class="text-decoration-none text-dark">Order Tracking</a>
+                        <div class="dropdown">
+                            <a class="dropdown-toggle text-decoration-none text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown">
+                                USD
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">USD</a></li>
+                                <li><a class="dropdown-item" href="#">PKR</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropdown-toggle text-decoration-none text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 72 72">
+                                    <path fill="#fff" d="M5 17h62v38H5z" />
+                                    <path fill="#d22f27" d="M5 17h62v5H5zm0 9h62v4H5zm0 8h62v4H5z" />
+                                    <path fill="#1e50a0" d="M5 17h32v21H5z" />
+                                    <path fill="#d22f27" d="M5 42h62v4H5z" />
+                                    <circle cx="9" cy="22" r="1.75" fill="#fff" />
+                                    <circle cx="17" cy="22" r="1.75" fill="#fff" />
+                                    <circle cx="25" cy="22" r="1.75" fill="#fff" />
+                                    <circle cx="33" cy="22" r="1.75" fill="#fff" />
+                                    <circle cx="29" cy="26" r="1.75" fill="#fff" />
+                                    <circle cx="21" cy="26" r="1.75" fill="#fff" />
+                                    <circle cx="13" cy="26" r="1.75" fill="#fff" />
+                                    <circle cx="9" cy="30" r="1.75" fill="#fff" />
+                                    <circle cx="17" cy="30" r="1.75" fill="#fff" />
+                                    <circle cx="25" cy="30" r="1.75" fill="#fff" />
+                                    <circle cx="33" cy="30" r="1.75" fill="#fff" />
+                                    <circle cx="29" cy="34" r="1.75" fill="#fff" />
+                                    <circle cx="21" cy="34" r="1.75" fill="#fff" />
+                                    <circle cx="13" cy="34" r="1.75" fill="#fff" />
+                                    <path fill="#d22f27" d="M5 50h62v5H5z" />
+                                    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M5 17h62v38H5z" />
+                                </svg> Eng
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Urdu</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navigation -->
+        <nav class="navbar navbar-expand-lg bg-white py-3">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <div
+                        class="bg-custom-green rounded-circle w-40 h-40 d-flex align-items-center justify-content-center me-2">
+                        <i class="bi bi-check text-white"></i>
+                    </div>
+                    <span class="fw-bold">SWOO TECH MART</span>
+                </a>
+
+                <!-- Navigation Menu -->
+                <div class="navbar-nav mx-auto">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown">
+                            HOMES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                            <li><a class="dropdown-item" href="index.html">Home 2</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About</a></li>
+                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown">
+                            PRODUCTS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Category</a></li>
+                            <li><a class="dropdown-item" href="#">Single Product</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link fw-bold" href="contact.html">CONTACT</a>
+                    </div>
+                </div>
+
+                <!-- User Actions -->
+                <div class="d-flex align-items-center gap-3">
+                    <div class="d-flex gap-2">
+                        <div
+                            class="bg-behindtext rounded-circle w-40 h-40 d-flex align-items-center justify-content-center">
+                            <i class="bi bi-bell"></i>
+                        </div>
+                        <div
+                            class="bg-behindtext rounded-circle w-40 h-40 d-flex align-items-center justify-content-center">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                        <div
+                            class="bg-behindtext rounded-circle w-40 h-40 d-flex align-items-center justify-content-center">
+                            <a class="text-decoration-none text-dark" href="profile.html">
+                                <i class="bi bi-person"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <small class="text-muted">WELCOME</small>
+                        <div class="d-flex">
+                            <a href="login.html" class="text-decoration-none text-dark fw-bold">LOG IN </a>
+                            <a href="register.html" class="text-decoration-none text-dark fw-bold">/ REGISTER</a>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <div
+                            class="bg-behindtext rounded-circle w-40 h-40 d-flex align-items-center justify-content-center position-relative">
+                            <i class="bi bi-cart3"></i>
+                            <span
+                                class="badge bg-custom-green rounded-circle position-absolute top-0 start-100 translate-middle">5</span>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <small class="text-muted"><a class="text-decoration-none text-dark" href="cart.html">CART</a></small>
+                            <strong>$1,689.00</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Search Bar -->
+        <div class="bg-custom-green py-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="d-flex">
+                            <select class="form-select w-auto border-0">
+                                <option>All Categories</option>
+                                <option>Laptops</option>
+                                <option>Phones</option>
+                                <option>Accessories</option>
+                            </select>
+                            <input type="text" class="form-control border-0" placeholder="Search anything...">
+                            <button class="btn btn-dark">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-white text-lg-end text-center mt-3 mt-lg-0">
+                        FREE SHIPPING OVER $199 | 30 DAYS MONEY BACK | 100% SECURE PAYMENT
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Breadcrumb Section -->
+        <section class="py-3">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0 bg-white rounded p-3 shadow-sm">
+                        <li class="breadcrumb-item">
+                            <a href="index.html" class="text-decoration-none text-dark">Home</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#" class="text-decoration-none text-dark">pages</a>
+                        </li>
+                        <li class="breadcrumb-item active text-custom-green" aria-current="page">Cart</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+        <section class="py-5">
+            <div class="container">
+                <!-- Single Card containing both cart items and order summary -->
+                <div class="bg-white rounded p-4 shadow-sm">
+                    <div class="row g-4">
+                        <!-- Cart Items Section -->
+                        <div class="col-lg-8">
+                            <!-- Cart Item 1 -->
+                            <div class="position-relative d-flex align-items-center p-3 border-bottom hover-bg-light">
+                                <div class="position-absolute top-0 left-0 bg-custom-green text-white fs-0-65 fw-bold p-2 border-radius-4 text-uppercase z-2">50% OFF</div>
+                                <div class="position-relative w-180 h-180 flex-shrink-0 bg-light rounded-8 d-flex align-items-center justify-content-center me-3">
+                                    <img src="Assets/Cart/srok.webp" alt="SIOX Smart Phone 128GB" class="cart-item-image">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h6 class="mb-1">SROK Smart Phone 128GB, Oled Retina</h6>
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-custom-green fw-bold me-2">$879.00</span>
+                                        <small class="text-decoration-line-through text-muted">$999.00</small>
+                                    </div>
+                                    <div class="cart-actions d-flex align-items-center mt-2">
+                                        <div class="cart-quantity d-flex align-items-center me-3">
+                                            <button class="btn btn-outline-secondary btn-sm cart-qty-btn">-</button>
+                                            <input type="text" value="1" class="cart-qty-input text-center mx-1">
+                                            <button class="btn btn-outline-secondary btn-sm cart-qty-btn">+</button>
+                                        </div>
+                                        <small class="text-success">FREE SHIPPING</small>
+                                    </div>
+                                    <div class="mt-2">
+                                        <small class="text-custom-green fw-bold">IN STOCK</small>
+                                    </div>
+                                </div>
+                                <div class="cart-item-actions">
+                                    <button class="btn btn-link text-muted p-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M4.24 12.25a4.2 4.2 0 0 1-1.24-3A4.25 4.25 0 0 1 7.25 5c1.58 0 2.96.86 3.69 2.14h1.12A4.24 4.24 0 0 1 15.75 5A4.25 4.25 0 0 1 20 9.25c0 1.17-.5 2.25-1.24 3L11.5 19.5zm15.22.71C20.41 12 21 10.7 21 9.25A5.25 5.25 0 0 0 15.75 4c-1.75 0-3.3.85-4.25 2.17A5.22 5.22 0 0 0 7.25 4A5.25 5.25 0 0 0 2 9.25c0 1.45.59 2.75 1.54 3.71l7.96 7.96z"/></svg>
+                                    </button>
+                                    <button class="btn btn-link text-muted p-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6 19a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7H6zM8 9h8v10H8zm7.5-5l-1-1h-5l-1 1H5v2h14V4z"/></svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Cart Item 2 -->
+                            <div class="position-relative d-flex align-items-center p-3 border-bottom hover-bg-light">
+                                <div class="cart-badge bg-dark text-white">25% OFF</div>
+                                <div class="position-relative w-180 h-180 flex-shrink-0 bg-light rounded-8 d-flex align-items-center justify-content-center me-3">
+                                    <img src="Assets/Cart/apodpro.webp" alt="iPad Pro Tablet 2023 LTE" class="cart-item-image">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h6 class="mb-1">iPad Pro Tablet 2023 LTE + WiFi, GPS Cellular 12.9 inch, 512GB</h6>
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-custom-green fw-bold me-2">$879.00</span>
+                                        <small class="text-decoration-line-through text-muted">$1,200.00</small>
+                                    </div>
+                                    <div class="cart-actions d-flex align-items-center mt-2">
+                                        <div class="cart-quantity d-flex align-items-center me-3">
+                                            <button class="btn btn-outline-secondary btn-sm cart-qty-btn">-</button>
+                                            <input type="text" value="1" class="cart-qty-input text-center mx-1">
+                                            <button class="btn btn-outline-secondary btn-sm cart-qty-btn">+</button>
+                                        </div>
+                                        <small class="text-success">$5.99 SHIPPING</small>
+                                    </div>
+                                    <div class="mt-2">
+                                        <small class="text-custom-green fw-bold">IN STOCK</small>
+                                    </div>
+                                </div>
+                                <div class="cart-item-actions">
+                                    <button class="btn btn-link text-muted p-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M4.24 12.25a4.2 4.2 0 0 1-1.24-3A4.25 4.25 0 0 1 7.25 5c1.58 0 2.96.86 3.69 2.14h1.12A4.24 4.24 0 0 1 15.75 5A4.25 4.25 0 0 1 20 9.25c0 1.17-.5 2.25-1.24 3L11.5 19.5zm15.22.71C20.41 12 21 10.7 21 9.25A5.25 5.25 0 0 0 15.75 4c-1.75 0-3.3.85-4.25 2.17A5.22 5.22 0 0 0 7.25 4A5.25 5.25 0 0 0 2 9.25c0 1.45.59 2.75 1.54 3.71l7.96 7.96z"/></svg>
+                                    </button>
+                                    <button class="btn btn-link text-muted p-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6 19a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7H6zM8 9h8v10H8zm7.5-5l-1-1h-5l-1 1H5v2h14V4z"/></svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Cart Item 3 -->
+                            <div class="position-relative d-flex align-items-center p-3 border-bottom hover-bg-light">
+                                <div class="cart-badge bg-dark text-white">25% OFF</div>
+                                <div class="position-relative w-180 h-180 flex-shrink-0 bg-light rounded-8 d-flex align-items-center justify-content-center me-3">
+                                    <img src="Assets/Cart/samsung.webp" alt="Samsung Galaxy X5 Ultra LTE" class="cart-item-image">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h6 class="mb-1">Samsung Galaxy X6 Ultra LTE 4G/128GB RAM, Black Smartphone</h6>
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-custom-green fw-bold me-2">$659.00</span>
+                                        <small class="text-decoration-line-through text-muted">$850.00</small>
+                                    </div>
+                                    <div class="cart-actions d-flex align-items-center mt-2">
+                                        <div class="cart-quantity d-flex align-items-center me-3">
+                                            <button class="btn btn-outline-secondary btn-sm cart-qty-btn">-</button>
+                                            <input type="text" value="1" class="cart-qty-input text-center mx-1">
+                                            <button class="btn btn-outline-secondary btn-sm cart-qty-btn">+</button>
+                                        </div>
+                                        <small class="text-danger">FREE FAST</small>
+                                    </div>
+                                    <div class="mt-2">
+                                        <small class="text-custom-green fw-bold">IN STOCK</small>
+                                    </div>
+                                </div>
+                                <div class="cart-item-actions">
+                                    <button class="btn btn-link text-muted p-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M4.24 12.25a4.2 4.2 0 0 1-1.24-3A4.25 4.25 0 0 1 7.25 5c1.58 0 2.96.86 3.69 2.14h1.12A4.24 4.24 0 0 1 15.75 5A4.25 4.25 0 0 1 20 9.25c0 1.17-.5 2.25-1.24 3L11.5 19.5zm15.22.71C20.41 12 21 10.7 21 9.25A5.25 5.25 0 0 0 15.75 4c-1.75 0-3.3.85-4.25 2.17A5.22 5.22 0 0 0 7.25 4A5.25 5.25 0 0 0 2 9.25c0 1.45.59 2.75 1.54 3.71l7.96 7.96z"/></svg>
+                                    </button>
+                                    <button class="btn btn-link text-muted p-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6 19a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7H6zM8 9h8v10H8zm7.5-5l-1-1h-5l-1 1H5v2h14V4z"/></svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Order Summary Section -->
+                        <div class="col-lg-4 ps-4 d-flex flex-column justify-content-center align-items-center min-h-500">
+                            <div class="bg-white rounded p-4 shadow-sm mt-auto max-w-300 w-100 border border-custom-green">
+                                <h5 class="fw-bold mb-4">Order Summary</h5>
+                                
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span class="fs-0-9">Sub Total</span>
+                                    <span class="fw-bold">$1,000.00</span>
+                                </div>
+                                
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span class="fs-0-9">Shipping Estimate</span>
+                                    <span class="fw-bold">$600.00</span>
+                                </div>
+                                
+                                <div class="d-flex justify-content-between mb-3">
+                                    <span class="fs-0-9">Tax Estimate</span>
+                                    <span class="fw-bold">$137.00</span>
+                                </div>
+                                
+                                <hr class="my-3">
+                                
+                                <div class="d-flex justify-content-between mb-4 border-top pt-3">
+                                    <span class="fw-bold fs-5">ORDER TOTAL</span>
+                                    <span class="fw-bold fs-5">$1,737.00</span>
+                                </div>
+                                
+                                <button class="btn btn-custom-green w-100 py-3 fw-bold">
+                                    CHECKOUT
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer-section bg-light py-5 mt-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Company Info Section -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold text-dark mb-3">SWOO - 1ST NYC TECH ONLINE MARKET</h5>
+                    <div class="mb-3">
+                        <p class="fw-bold mb-1">HOTLINE 24/7</p>
+                        <h4 class="text-success fw-bold">(025) 3686 25 16</h4>
+                    </div>
+                    <address class="text-muted small mb-3">
+                        257 Thatcher Road St Brooklyn, Manhattan,<br>
+                        NY 10092<br>
+                        contact@swootechsmart.com
+                    </address>
+                    <!-- Social Media Icons -->
+                    <div class="d-flex gap-2">
+                        <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill="none" stroke="currentColor" stroke-dasharray="64" stroke-dashoffset="64"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19.89 7.34c-0.09 0.33 -0.49 1.16 -1.17 1.95c-0.45 8.68 -8.87 11.5 -14.64 8.59c-0.79 -1.05 2.85 -0.62 4.18 -2.63c-5.03 -2.57 -4.63 -9.44 -3.62 -9.16c2.37 3.19 6.19 3.48 6.81 3.19c0 -0.73 -0.31 -2.32 1.41 -3.65c0.99 -0.71 3.06 -1.34 4.93 0.69c0.32 0.21 0.78 0.3 1.47 0.15c0.41 -0.21 0.95 -0.07 0.67 0.66Z">
+                                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="64;0" />
+                                </path>
+                            </svg></a>
+                        <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95" />
+                            </svg></a>
+                        <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <g fill="none">
+                                    <path
+                                        d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                                    <path fill="currentColor"
+                                        d="M16 3a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5zm-4 5a4 4 0 1 0 0 8a4 4 0 0 0 0-8m0 2a2 2 0 1 1 0 4a2 2 0 0 1 0-4m4.5-3.5a1 1 0 1 0 0 2a1 1 0 0 0 0-2" />
+                                </g>
+                            </svg></a>
+                        <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="m10 15l5.19-3L10 9zm11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83c-.25.9-.83 1.48-1.73 1.73c-.47.13-1.33.22-2.65.28c-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44c-.9-.25-1.48-.83-1.73-1.73c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73c.47-.13 1.33-.22 2.65-.28c1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44c.9.25 1.48.83 1.73 1.73" />
+                            </svg></a>
+                        <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M8.492 19.191q.035-.505.143-1.001c.063-.295.254-1.13.534-2.34l.007-.03l.387-1.668c.079-.34.14-.604.181-.692a3.5 3.5 0 0 1-.284-1.423c0-1.337.756-2.373 1.736-2.373c.36-.006.704.15.942.426s.348.643.302.996c0 .453-.085.798-.453 2.035a28 28 0 0 0-.165.571a11 11 0 0 0-.133.522c-.096.386-.008.797.237 1.105a1.2 1.2 0 0 0 1.006.457c1.492 0 2.6-1.985 2.6-4.548c0-1.97-1.29-3.274-3.432-3.274A3.88 3.88 0 0 0 9.201 9.1a4.13 4.13 0 0 0-1.195 2.961a2.55 2.55 0 0 0 .512 1.644c.181.14.25.383.175.59c-.041.168-.14.552-.177.68a.41.41 0 0 1-.215.297a.39.39 0 0 1-.355.002c-1.16-.479-1.796-1.778-1.796-3.44c0-2.985 2.491-5.584 6.192-5.584c3.135 0 5.481 2.329 5.481 5.14c0 3.532-1.932 6.104-4.69 6.104a2.5 2.5 0 0 1-2.046-.959l-.043.177l-.207.852l-.002.008c-.146.6-.248 1.017-.288 1.173q-.16.534-.4 1.04a8 8 0 1 0-1.655-.593M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10" />
+                            </svg></a>
+                    </div>
+                </div>
+
+                <!-- Top Categories Section -->
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold text-dark mb-3">TOP CATEGORIES</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Laptops</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">PC & Computers</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Cell Phones</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Tablets</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Gaming & VR</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Networks</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Cameras</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Sounds</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Office</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company Section -->
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold text-dark mb-3">COMPANY</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">About Swoo</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Contact</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Career</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Blog</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Sitemap</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Store Locations</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Help Center Section -->
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold text-dark mb-3">HELP CENTER</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Customer Service</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Policy</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Terms &
+                                Conditions</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Track Order</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">FAQs</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">My Account</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Product Support</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Partner Section -->
+                <div class="col-lg-3 col-md-12">
+                    <h6 class="fw-bold text-dark mb-3">PARTNER</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Become Seller</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Affiliate</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Advertise</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none small">Partnership</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Top Footer Row - Above HR -->
+            <div class="row align-items-center mb-4">
+                <!-- Left: Language/Currency -->
+                <div class="col-md-3">
+                    <div class="d-flex gap-2">
+                        <select class="form-select form-select-sm" style="width: auto;">
+                            <option>USD</option>
+                            <option>EUR</option>
+                            <option>GBP</option>
+                        </select>
+                        <select class="form-select form-select-sm" style="width: auto;">
+                            <option><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 64 64">
+                                    <path fill="#ed4c5c" d="M48 6.6C43.3 3.7 37.9 2 32 2v4.6z" />
+                                    <path fill="#fff" d="M32 11.2h21.6C51.9 9.5 50 7.9 48 6.6H32z" />
+                                    <path fill="#ed4c5c" d="M32 15.8h25.3c-1.1-1.7-2.3-3.2-3.6-4.6H32z" />
+                                    <path fill="#fff" d="M32 20.4h27.7c-.7-1.6-1.5-3.2-2.4-4.6H32z" />
+                                    <path fill="#ed4c5c" d="M32 25h29.2c-.4-1.6-.9-3.1-1.5-4.6H32z" />
+                                    <path fill="#fff" d="M32 29.7h29.9c-.1-1.6-.4-3.1-.7-4.6H32z" />
+                                    <path fill="#ed4c5c"
+                                        d="M61.9 29.7H32V32H2c0 .8 0 1.5.1 2.3h59.8c.1-.8.1-1.5.1-2.3s0-1.6-.1-2.3" />
+                                    <path fill="#fff" d="M2.8 38.9h58.4c.4-1.5.6-3 .7-4.6H2.1c.1 1.5.4 3.1.7 4.6" />
+                                    <path fill="#ed4c5c"
+                                        d="M4.3 43.5h55.4c.6-1.5 1.1-3 1.5-4.6H2.8c.4 1.6.9 3.1 1.5 4.6" />
+                                    <path fill="#fff"
+                                        d="M6.7 48.1h50.6c.9-1.5 1.7-3 2.4-4.6H4.3c1 1.7 2.3 3.2 3.6 4.6" />
+                                    <path fill="#ed4c5c"
+                                        d="M10.3 52.7h43.4c1.3-1.4 2.6-3 3.6-4.6H6.7c1.7 1.8 3.6 3.3 5.6 4.6" />
+                                    <path fill="#fff"
+                                        d="M15.9 57.3h32.2c2.1-1.3 3.9-2.9 5.6-4.6H10.3c1.7 1.8 3.6 3.3 5.6 4.6" />
+                                    <path fill="#ed4c5c"
+                                        d="M32 62c5.9 0 11.4-1.7 16.1-4.7H15.9c4.7 3 10.2 4.7 16.1 4.7" />
+                                    <path fill="#428bc1"
+                                        d="M16 6.6c-2.1 1.3-4 2.9-5.7 4.6c-1.4 1.4-2.6 3-3.6 4.6c-.9 1.5-1.8 3-2.4 4.6c-.6 1.5-1.1 3-1.5 4.6c-.4 1.5-.6 3-.7 4.6c-.1.8-.1 1.6-.1 2.4h30V2c-5.9 0-11.3 1.7-16 4.6" />
+                                    <path fill="#fff"
+                                        d="m25 3l.5 1.5H27l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5zm4 6l.5 1.5H31l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5zm-8 0l.5 1.5H23l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5zm4 6l.5 1.5H27l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5zm-8 0l.5 1.5H19l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5zm-8 0l.5 1.5H11l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5zm20 6l.5 1.5H31l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5zm-8 0l.5 1.5H23l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5zm-8 0l.5 1.5H15l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5zm12 6l.5 1.5H27l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5zm-8 0l.5 1.5H19l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5zm-8 0l.5 1.5H11l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5zm2.8-14l1.2-.9l1.2.9l-.5-1.5l1.2-1h-1.5L13 9l-.5 1.5h-1.4l1.2.9zm-8 12l1.2-.9l1.2.9l-.5-1.5l1.2-1H5.5L5 21l-.5 1.5h-1c0 .1-.1.2-.1.3l.8.6z" />
+                                </svg> Eng</option>
+                            <option>🇪🇸 Esp</option>
+                            <option>🇫🇷 Fra</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Center: Subscription -->
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <h6 class="fw-bold text-dark mb-3">SUBSCRIBE & GET <span class="text-danger">10% OFF</span> FOR
+                            YOUR FIRST ORDER</h6>
+                        <div class="input-group mb-2">
+                            <input type="email" class="form-control" placeholder="Enter your email address"
+                                aria-label="Email">
+                            <button class="btn btn-success" type="button">SUBSCRIBE</button>
+                        </div>
+                        <p class="small text-muted">By subscribing, you've accepted the our <a href="#"
+                                class="text-muted">Policy</a></p>
+                    </div>
+                </div>
+
+                <!-- Right: Empty space for balance -->
+                <div class="col-md-3"></div>
+            </div>
+
+            <!-- HR Separator -->
+            <hr class="my-4">
+
+            <!-- Bottom Footer Row - Below HR -->
+            <div class="row align-items-center">
+                <!-- Left: Copyright -->
+                <div class="col-md-4">
+                    <p class="mb-0 small text-muted">© 2024 <strong>Swootecnics</strong> - All Rights Reserved</p>
+                </div>
+
+                <!-- Center: Payment Methods -->
+                <div class="col-md-4">
+                    <div class="d-flex gap-2 align-items-center justify-content-center">
+                        <img src="Assets/Home/footer/Pay.webp" alt="PayPal" class="payment-icon">
+                        <img src="Assets/Home/footer/Mastercard.webp" alt="Mastercard" class="payment-icon">
+                        <img src="Assets/Home/footer/Visa.webp" alt="Visa" class="payment-icon">
+                        <img src="Assets/Home/footer/Stripe.webp" alt="Stripe" class="payment-icon">
+                        <img src="Assets/Home/footer/Klarna.webp" alt="Klarna" class="payment-icon">
+                    </div>
+                </div>
+
+                <!-- Right: Mobile Site -->
+                <div class="col-md-4">
+                    <div class="text-end">
+                        <a href="#" class="text-primary text-decoration-none small">Mobile Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3.7 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
